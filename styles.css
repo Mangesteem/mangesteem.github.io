@@ -1,0 +1,73 @@
+body {
+    font-family: 'Sono', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #181818;
+    color: #707070;
+}
+
+.container {
+    max-width: 700px; /* Adjust the maximum width */
+    width: 80%; /* Adjust the width as a percentage or specify a specific width */
+    margin: 50px auto;
+    padding: 30px; /* Increase padding for better spacing */
+    border: 2px solid #CADF9E; /* Increase border thickness for better visibility */
+    border-radius: 8px; /* Increase border radius for rounded corners */
+    background-color: #1F1F1F;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a slight shadow for depth */
+}
+
+.sono-heading {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #707070;
+}
+
+.sono-input {
+    width: calc(100% - 80px);
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #1F1F1F;
+    color: #707070;
+    border: 1px solid #707070;
+    border-radius: 5px;
+}
+
+.sono-button {
+    padding: 10px 20px;
+    background-color: #1F1F1F;
+    color: #707070;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sono-button:hover {
+    background-color: #CADF9E;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.delete-btn {
+    margin-left: 10px;
+    background-color: #1F1F1F;
+    color: #707070;
+    border: 1px solid #707070;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #CADF9E;
+}

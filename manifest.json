@@ -1,0 +1,15 @@
+{
+    "name": "Mangesteem | Simple To-do List",
+    "version": "1.0",
+    "description": "A simple to-do list Chrome extension to help you stay organized.",
+    "permissions": ["storage", "tabs"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "16x16icontodolist.png",
+            "48": "48x48icontodolist.png",
+            "128": "128x128icontodolist.png"
+        }
+    },
+    "manifest_version": 3
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mangesteem | Simple To-do List</title>
+    <!-- Import Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sono:wght@200..800&display=swap">
+    <!-- Link your CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1 class="sono-heading">To-Do List</h1>
+    <input type="text" id="taskInput" class="sono-input" placeholder="Add new task...">
+    <button onclick="addTask()" class="sono-button">Add Task</button>
+    <ul id="taskList"></ul>
+    <!-- Resize handle -->
+    <div class="resize-handle" style="position: absolute; bottom: 0; right: 0; width: 20px; height: 20px; cursor: nwse-resize;"></div>
+</div>
+
+<script src="popup.js"></script>
+</body>
+</html>
